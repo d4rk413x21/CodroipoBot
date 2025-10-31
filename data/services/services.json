@@ -1,0 +1,397 @@
+[
+  {
+    "id": "anagrafe-carta-identita",
+    "name": "Carta d'Identita' Elettronica (CIE)",
+    "category": "Servizi Demografici",
+    "summary": "Il cittadino può chiedere il primo rilascio o il rinnovo della Carta d'Identità Elettronica (C.I.E.) al Comune di residenza o dimora.La consegna avviene entro sei giorni lavorativi dalla data della richiesta a cura del Ministero dell'Interno.Viene inviata al domicilio o ritirata presso il Comune",
+    "department": "Ufficio Anagrafe",
+    "officeHours": [
+      "Lunedì: 9:30 - 12:30",
+      "Martedì: 8:30 - 12:30",
+      "Mercoledì: 9:30 - 12:30 / 16:00 - 18:15",
+      "Giovedì: 9:30 - 12:30",
+      "Venerdì: 9:30 - 12:30"
+    ],
+    "contact": {
+      "phone": "0432/824500",
+      "email": "comune.codroipo@certgov.fvg.it"
+    },
+    "procedures": [
+      {
+        "title": "Passo 1",
+        "description": "on-line su questo sito cliccando su PRENOTA UN APPUNTAMENTO e scegliere sportello anagrafe (verificare poi quale dei due sportelli ha date disponibili più consone con le vostre esigenze)"
+      }
+    ],
+    "requiredDocuments": [
+      {
+        "name": "Il cittadino deve presentarsi allo sportello munito di",
+        "description": "Il cittadino deve presentarsi allo sportello munito di:carta d'identità SCADUTA (o denuncia in originale per furto/smarrimento) o in scadenza (il rinnovo può essere chiesto fino a 180 giorni prima del",
+        "mandatory": true
+      },
+      {
+        "name": "codice fiscale o tessera sanitaria",
+        "description": "codice fiscale o tessera sanitaria",
+        "mandatory": false
+      },
+      {
+        "name": "una fototessera aventi le caratteristiche (regole) in allegato",
+        "description": "una fototessera aventi le caratteristiche (regole) in allegato",
+        "mandatory": false
+      },
+      {
+        "name": "copia della ricevuta di pagamento effettuato tramite PAGOPA",
+        "description": "copia della ricevuta di pagamento effettuato tramite PAGOPA (OBBLIGATORIO DAL 01/01/2025).PER I MINORI, qualora non si presentino allo sportello entrambi i genitori, DEVE ESSERE PRESENTATA LA DICHIARA",
+        "mandatory": true
+      },
+      {
+        "name": "2023.All'atto della richiesta di emissione della CIE il cittadino può esprimere il consenso/diniego alla donazione degli organi. Il Centro Nazionale Trapianti assicura la gestione di tale informazione. Il rilascio della dichiarazione di volontà relativa alla donazione degli organi è facoltativo. Per maggiori informazioni visita il sito",
+        "description": "2023.All'atto della richiesta di emissione della CIE il cittadino può esprimere il consenso/diniego alla donazione degli organi. Il Centro Nazionale Trapianti assicura la gestione di tale informazione",
+        "mandatory": false
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Quali sono gli orari di apertura?",
+        "answer": "Lunedì: 9:30 - 12:30\nMartedì: 8:30 - 12:30\nMercoledì: 9:30 - 12:30 / 16:00 - 18:15\nGiovedì: 9:30 - 12:30\nVenerdì: 9:30 - 12:30",
+        "tags": [
+          "orari",
+          "apertura"
+        ]
+      },
+      {
+        "question": "Quanto costa?",
+        "answer": "Il costo del servizio è: €22.00",
+        "tags": [
+          "pagamenti",
+          "costi",
+          "tariffe"
+        ]
+      },
+      {
+        "question": "Quali documenti sono necessari?",
+        "answer": "Documentazione richiesta:\n- Il cittadino deve presentarsi allo sportello munito di (obbligatorio)\n- codice fiscale o tessera sanitaria\n- una fototessera aventi le caratteristiche (regole) in allegato\n- copia della ricevuta di pagamento effettuato tramite PAGOPA (obbligatorio)\n- 2023.All'atto della richiesta di emissione della CIE il cittadino può esprimere il consenso/diniego alla donazione degli organi. Il Centro Nazionale Trapianti assicura la gestione di tale informazione. Il rilascio della dichiarazione di volontà relativa alla donazione degli organi è facoltativo. Per maggiori informazioni visita il sito",
+        "tags": [
+          "documenti",
+          "requisiti"
+        ]
+      },
+      {
+        "question": "Come si richiede il servizio?",
+        "answer": "1. on-line su questo sito cliccando su PRENOTA UN APPUNTAMENTO e scegliere sportello anagrafe (verificare poi quale dei due sportelli ha date disponibili più consone con le vostre esigenze)",
+        "tags": [
+          "procedura",
+          "come-fare"
+        ]
+      },
+      {
+        "question": "Come posso prenotare un appuntamento?",
+        "answer": "Il cittadino deve presentarsi di persona, con la documentazione richiesta, solo su appuntamento da prenotare tramite una delle seguenti modalità: \n1",
+        "tags": [
+          "prenotazioni",
+          "appuntamenti"
+        ]
+      },
+      {
+        "question": "Come posso contattare l'ufficio?",
+        "answer": "Telefono: 0432/824500\nEmail: comune.codroipo@certgov.fvg.it",
+        "tags": [
+          "contatti",
+          "informazioni"
+        ]
+      }
+    ],
+    "bookingNotes": "Il cittadino deve presentarsi di persona, con la documentazione richiesta, solo su appuntamento da prenotare tramite una delle seguenti modalità: \n1. on-line su questo sito cliccando su PRENOTA UN APPUNTAMENTO e scegliere sportello anagrafe (verificare poi quale dei due sportelli ha date disponibili"
+  },
+  {
+    "id": "certificato-residenza",
+    "name": "Certificati anagrafici",
+    "category": "Servizi Demografici",
+    "summary": "Il cittadino può chiedere al comune certificati e attestazioni anagrafiche che attestano la residenza, cittadinanza, stato di famiglia, stato libero, ecc.I certificati e gli attestati possono riferirsi a situazioni attuali e storiche",
+    "department": "Ufficio Anagrafe",
+    "officeHours": [
+      "Lunedì: 9:30 - 12:30",
+      "Martedì: 8:30 - 12:30",
+      "Mercoledì: 9:30 - 12:30 / 16:00 - 18:15",
+      "Giovedì: 9:30 - 12:30",
+      "Venerdì: 9:30 - 12:30"
+    ],
+    "contact": {},
+    "procedures": [
+      {
+        "title": "Modalità 1",
+        "description": "La richiesta deve essere presentata dagli interessati, muniti di un documento d'identità in corso di validità, agli sportelli dell'ufficio anagrafe negli orari di apertura al pubblico"
+      },
+      {
+        "title": "Modalità 2",
+        "description": "E’ necessaria la presenza fisica del/della richiedente per consentirne l’identificazione"
+      }
+    ],
+    "requiredDocuments": [
+      {
+        "name": "Il cittadino può chiedere al comune certificati e attestazioni anagrafiche che attestano la residenza, cittadinanza, stato di famiglia, stato libero, ecc. I certificati e gli attestati possono riferirsi a situazioni attuali e storiche.L'ANPR consente ai comuni la certificazione dei dati anagrafici nel rispetto di quanto previsto dall'articolo 33 del D.P.R. 30 maggio 1989, n. 223, anche in modalità telematica. La certificazione dei dati anagrafici in modalità telematica è assicurata dal Ministero dell'Interno tramite l'ANPR attraverso l'emissione di documenti digitali muniti di sigillo elettronico qualificato.Nessun requisito richiesto Cosa si ottiene",
+        "description": "Il cittadino può chiedere al comune certificati e attestazioni anagrafiche che attestano la residenza, cittadinanza, stato di famiglia, stato libero, ecc. I certificati e gli attestati possono riferir",
+        "mandatory": false
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Quali sono gli orari di apertura?",
+        "answer": "Lunedì: 9:30 - 12:30\nMartedì: 8:30 - 12:30\nMercoledì: 9:30 - 12:30 / 16:00 - 18:15\nGiovedì: 9:30 - 12:30\nVenerdì: 9:30 - 12:30",
+        "tags": [
+          "orari",
+          "apertura"
+        ]
+      },
+      {
+        "question": "Quanto costa?",
+        "answer": "Il costo del servizio è: Consultare ufficio",
+        "tags": [
+          "pagamenti",
+          "costi",
+          "tariffe"
+        ]
+      },
+      {
+        "question": "Quali documenti sono necessari?",
+        "answer": "Documentazione richiesta:\n- Il cittadino può chiedere al comune certificati e attestazioni anagrafiche che attestano la residenza, cittadinanza, stato di famiglia, stato libero, ecc. I certificati e gli attestati possono riferirsi a situazioni attuali e storiche.L'ANPR consente ai comuni la certificazione dei dati anagrafici nel rispetto di quanto previsto dall'articolo 33 del D.P.R. 30 maggio 1989, n. 223, anche in modalità telematica. La certificazione dei dati anagrafici in modalità telematica è assicurata dal Ministero dell'Interno tramite l'ANPR attraverso l'emissione di documenti digitali muniti di sigillo elettronico qualificato.Nessun requisito richiesto Cosa si ottiene",
+        "tags": [
+          "documenti",
+          "requisiti"
+        ]
+      },
+      {
+        "question": "Come si richiede il servizio?",
+        "answer": "1. La richiesta deve essere presentata dagli interessati, muniti di un documento d'identità in corso di validità, agli sportelli dell'ufficio anagrafe negli orari di apertura al pubblico\n2. E’ necessaria la presenza fisica del/della richiedente per consentirne l’identificazione",
+        "tags": [
+          "procedura",
+          "come-fare"
+        ]
+      }
+    ],
+    "bookingNotes": "La richiesta deve essere presentata dagli interessati, muniti di un documento d'identità in corso di validità, agli sportelli dell'ufficio anagrafe negli orari di apertura al pubblico. E’ necessaria la presenza fisica del/della richiedente per consentirne l’identificazione.Cosa serve"
+  },
+  {
+    "id": "tributi-tari",
+    "name": "TARI - Tassa rifiuti",
+    "category": "Tributi",
+    "summary": "Chi possiede o detiene, a qualsiasi titolo, locali o aree scoperte, anche se di fatto non utilizzati, suscettibili di produrre rifiuti urbani o assimilati deve versale al Comune, ove è ubicato il locale/area, la Tassa sui Rifiuti (TARI).Come fare",
+    "department": "Ufficio Tributi",
+    "officeHours": [
+      "Lunedì: 9:30 - 12:30 / 16:00 - 18:15",
+      "Martedì: 8:30 - 12:30",
+      "Mercoledì: 9:30 - 12:30 / 16:00 - 18:15",
+      "Giovedì: 9:30 - 12:30",
+      "Venerdì: 9:30 - 12:30"
+    ],
+    "contact": {},
+    "procedures": [
+      {
+        "title": "Modalità 1",
+        "description": "A chi possiede o detiene, a qualsiasi titolo, locali o aree scoperte, anche se di fatto non utilizzati, suscettibili di produrre rifiuti urbani o assimilati"
+      }
+    ],
+    "requiredDocuments": [
+      {
+        "name": "Documento di identità",
+        "description": "Documento valido del richiedente",
+        "mandatory": true
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Quali sono gli orari di apertura?",
+        "answer": "Lunedì: 9:30 - 12:30 / 16:00 - 18:15\nMartedì: 8:30 - 12:30\nMercoledì: 9:30 - 12:30 / 16:00 - 18:15\nGiovedì: 9:30 - 12:30\nVenerdì: 9:30 - 12:30",
+        "tags": [
+          "orari",
+          "apertura"
+        ]
+      },
+      {
+        "question": "Quanto costa?",
+        "answer": "Il costo del servizio è: Consultare ufficio",
+        "tags": [
+          "pagamenti",
+          "costi",
+          "tariffe"
+        ]
+      },
+      {
+        "question": "Quali documenti sono necessari?",
+        "answer": "Documentazione richiesta:\n- Documento di identità (obbligatorio)",
+        "tags": [
+          "documenti",
+          "requisiti"
+        ]
+      },
+      {
+        "question": "Come si richiede il servizio?",
+        "answer": "1. A chi possiede o detiene, a qualsiasi titolo, locali o aree scoperte, anche se di fatto non utilizzati, suscettibili di produrre rifiuti urbani o assimilati",
+        "tags": [
+          "procedura",
+          "come-fare"
+        ]
+      }
+    ],
+    "bookingNotes": "A chi possiede o detiene, a qualsiasi titolo, locali o aree scoperte, anche se di fatto non utilizzati, suscettibili di produrre rifiuti urbani o assimilati"
+  },
+  {
+    "id": "ufficio-tecnico",
+    "name": "Accesso atti - Edilizia Privata",
+    "category": "Urbanistica",
+    "summary": "Il diritto di accesso agli atti documentale è il diritto di prendere visione o estrarre copia di documenti amministrativi da parte di soggetti, anche portatori di interessi pubblici o diffusi, che abbiano un interesse diretto, concreto e attuale, e corrispondente ad una situazione giuridicamente tut",
+    "department": "Area Tecnica - Edilizia Privata",
+    "officeHours": [
+      "Lunedì: 9:30 - 12:30",
+      "Martedì: 8:30 - 12:30",
+      "Mercoledì: 15:00 - 18:15",
+      "Venerdì: 9:30 - 12:30"
+    ],
+    "contact": {
+      "email": "del"
+    },
+    "procedures": [
+      {
+        "title": "Modalità 1",
+        "description": "Procedure online: Per richiedere l'accesso agli atti, è necessario utilizzare la procedura guidata online disponibile, accedendo al sistema tramite il pulsante \"Accesso online\""
+      },
+      {
+        "title": "Modalità 2",
+        "description": "Una volta effettuato l'accesso con SPID (Sistema Pubblico di Identità Digitale), Carta d'Identità Elettronica (CIE) o Carta Nazionale dei Servizi (CNS), sarà possibile procedere con la richiesta"
+      },
+      {
+        "title": "Modalità 3",
+        "description": "A mezzo PEC: Per inoltrare la richiesta, è necessario compilare e firmare digitalmente il modello apposito, quindi inviarlo all'indirizzo PEC del Comune: comune"
+      }
+    ],
+    "requiredDocuments": [
+      {
+        "name": "Per la procedura online",
+        "description": "Per la procedura online: SPID (Sistema Pubblico per la gestione dell'Identità Digitale), Carta identità elettronica (CIE) o Carta Nazionale dei Servizi (CNS)",
+        "mandatory": false
+      },
+      {
+        "name": "Nel caso in cui il richiedente agisca per conto del soggetto interessato, alla richiesta deve essere allegata la delega con copia fotostatica del documento d'identità del delegante.Per le copie conformi all’originale è necessario una marca da bollo da € 16,00, la marca da bollo andrà poi \"barrata\" per non essere più riutilizzabile.Al momento della richiesta avere sotto mano le informazioni relative agli atti da richiedere.Il pagamento di eventuali copie e diritti di segreteria verrà richiesto dopo l'invio della richiesta.Per conoscere i dettagli di scadenze, requisiti e altre informazioni importanti, leggi i termini e le condizioni di servizio.richiesta accesso agli atti.rtf",
+        "description": "Nel caso in cui il richiedente agisca per conto del soggetto interessato, alla richiesta deve essere allegata la delega con copia fotostatica del documento d'identità del delegante.Per le copie confor",
+        "mandatory": true
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Quali sono gli orari di apertura?",
+        "answer": "Lunedì: 9:30 - 12:30\nMartedì: 8:30 - 12:30\nMercoledì: 15:00 - 18:15\nVenerdì: 9:30 - 12:30",
+        "tags": [
+          "orari",
+          "apertura"
+        ]
+      },
+      {
+        "question": "Quanto costa?",
+        "answer": "Il costo del servizio è: Consultare ufficio",
+        "tags": [
+          "pagamenti",
+          "costi",
+          "tariffe"
+        ]
+      },
+      {
+        "question": "Quali documenti sono necessari?",
+        "answer": "Documentazione richiesta:\n- Per la procedura online\n- Nel caso in cui il richiedente agisca per conto del soggetto interessato, alla richiesta deve essere allegata la delega con copia fotostatica del documento d'identità del delegante.Per le copie conformi all’originale è necessario una marca da bollo da € 16,00, la marca da bollo andrà poi \"barrata\" per non essere più riutilizzabile.Al momento della richiesta avere sotto mano le informazioni relative agli atti da richiedere.Il pagamento di eventuali copie e diritti di segreteria verrà richiesto dopo l'invio della richiesta.Per conoscere i dettagli di scadenze, requisiti e altre informazioni importanti, leggi i termini e le condizioni di servizio.richiesta accesso agli atti.rtf (obbligatorio)",
+        "tags": [
+          "documenti",
+          "requisiti"
+        ]
+      },
+      {
+        "question": "Come si richiede il servizio?",
+        "answer": "1. Procedure online: Per richiedere l'accesso agli atti, è necessario utilizzare la procedura guidata online disponibile, accedendo al sistema tramite il pulsante \"Accesso online\"\n2. Una volta effettuato l'accesso con SPID (Sistema Pubblico di Identità Digitale), Carta d'Identità Elettronica (CIE) o Carta Nazionale dei Servizi (CNS), sarà possibile procedere con la richiesta\n3. A mezzo PEC: Per inoltrare la richiesta, è necessario compilare e firmare digitalmente il modello apposito, quindi inviarlo all'indirizzo PEC del Comune: comune",
+        "tags": [
+          "procedura",
+          "come-fare"
+        ]
+      },
+      {
+        "question": "Come posso contattare l'ufficio?",
+        "answer": "Email: del",
+        "tags": [
+          "contatti",
+          "informazioni"
+        ]
+      }
+    ],
+    "bookingNotes": "Procedure online: Per richiedere l'accesso agli atti, è necessario utilizzare la procedura guidata online disponibile, accedendo al sistema tramite il pulsante \"Accesso online\". Una volta effettuato l'accesso con SPID (Sistema Pubblico di Identità Digitale), Carta d'Identità Elettronica (CIE) o Cart"
+  },
+  {
+    "id": "mensa-scolastica",
+    "name": "Refezione scolastica - Mensa",
+    "category": "Servizi Educativi",
+    "summary": "Il servizio di refezione scolastica comunale consiste nella somministrazione di pasti ai bambini che frequentano le scuole dell'infanzia statali, agli alunni delle scuole primarie a tempo pieno o con due rientri pomeridiani e agli alunni delle scuole secondarie di I^ grado. Il servizio è erogato in ",
+    "department": "Area Servizi alla Persona",
+    "officeHours": [
+      "Lunedì: 16:00 - 18:15",
+      "Martedì: 8:30 - 12:30",
+      "Mercoledì: 9:30 - 12:30 / 16:00 - 18:15",
+      "Giovedì: 9:30 - 12:30",
+      "Venerdì: 9:30 - 12:30"
+    ],
+    "contact": {
+      "email": "del"
+    },
+    "procedures": [
+      {
+        "title": "Modalità 1",
+        "description": "Iscrizioni al servizio da effettuare On line tramite il portale"
+      }
+    ],
+    "requiredDocuments": [
+      {
+        "name": "Il servizio di refezione scolastica comunale consiste nella somministrazione di pasti ai bambini che frequentano le scuole dell'infanzia statali, agli alunni delle scuole primarie a tempo pieno o con due rientri pomeridiani e agli alunni delle scuole secondarie di I^ grado. Il servizio è erogato in connessione con la permanenza degli alunni a scuola per attività scolastiche nel pomeriggio. I pasti destinati agli alunni delle scuole dell'infanzia, primarie, secondarie di I^ grado statali sono preparati all'esterno in un apposito centro cottura e trasportati nella stessa giornata nelle scuole. Per la preparazione dei pasti, sono utilizzate derrate alimentari biologiche in percentuale superiore al 60% del totale. I menù rispettano i criteri previsti dalla “LINEE GUIDA DELLA REGIONE FVG PER LA RISTORAZIONE SCOLASTICA”. Il servizio viene svolto in stretta collaborazione e la supervisione dell’Asu",
+        "description": "Il servizio di refezione scolastica comunale consiste nella somministrazione di pasti ai bambini che frequentano le scuole dell'infanzia statali, agli alunni delle scuole primarie a tempo pieno o con ",
+        "mandatory": false
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Quali sono gli orari di apertura?",
+        "answer": "Lunedì: 16:00 - 18:15\nMartedì: 8:30 - 12:30\nMercoledì: 9:30 - 12:30 / 16:00 - 18:15\nGiovedì: 9:30 - 12:30\nVenerdì: 9:30 - 12:30",
+        "tags": [
+          "orari",
+          "apertura"
+        ]
+      },
+      {
+        "question": "Quanto costa?",
+        "answer": "Il costo del servizio è: Gratuito",
+        "tags": [
+          "pagamenti",
+          "costi",
+          "tariffe"
+        ]
+      },
+      {
+        "question": "Quali documenti sono necessari?",
+        "answer": "Documentazione richiesta:\n- Il servizio di refezione scolastica comunale consiste nella somministrazione di pasti ai bambini che frequentano le scuole dell'infanzia statali, agli alunni delle scuole primarie a tempo pieno o con due rientri pomeridiani e agli alunni delle scuole secondarie di I^ grado. Il servizio è erogato in connessione con la permanenza degli alunni a scuola per attività scolastiche nel pomeriggio. I pasti destinati agli alunni delle scuole dell'infanzia, primarie, secondarie di I^ grado statali sono preparati all'esterno in un apposito centro cottura e trasportati nella stessa giornata nelle scuole. Per la preparazione dei pasti, sono utilizzate derrate alimentari biologiche in percentuale superiore al 60% del totale. I menù rispettano i criteri previsti dalla “LINEE GUIDA DELLA REGIONE FVG PER LA RISTORAZIONE SCOLASTICA”. Il servizio viene svolto in stretta collaborazione e la supervisione dell’Asu",
+        "tags": [
+          "documenti",
+          "requisiti"
+        ]
+      },
+      {
+        "question": "Come si richiede il servizio?",
+        "answer": "1. Iscrizioni al servizio da effettuare On line tramite il portale",
+        "tags": [
+          "procedura",
+          "come-fare"
+        ]
+      },
+      {
+        "question": "Come posso contattare l'ufficio?",
+        "answer": "Email: del",
+        "tags": [
+          "contatti",
+          "informazioni"
+        ]
+      }
+    ],
+    "bookingNotes": "Iscrizioni al servizio da effettuare On line tramite il portale"
+  }
+]

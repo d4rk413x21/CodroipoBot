@@ -1,0 +1,15 @@
+import type { FastifyPluginAsync } from 'fastify';
+import { isVapiConfigured, syncKnowledgeBase } from '../integrations/vapiClient.js';
+
+export const integrationsRoutes: FastifyPluginAsync = async (app) => {
+  app.post('/integrations/vapi/sync', async (request, reply) => {
+    if (!isVapiConfigured()) {
+      return reply.code(400).send({
+        message: 'Configurazione Vapi assente. Imposta VAPI_API_KEY e VAPI_ASSISTANT_ID.',
+      });
+    }
+
+    await syncKnowledgeBase();
+    return reply.code(202).send({ status: 'pending', message: 'Knowledge base in fase di sincronizzazione' });
+  });
+};

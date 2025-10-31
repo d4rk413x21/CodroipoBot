@@ -1,0 +1,43 @@
+# Dependencies
+node_modules
+
+# Development
+.env
+.env.local
+.env.*.local
+
+# Build artifacts (will be built on Vercel)
+dist
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Scraped data (not needed for runtime)
+data/raw
+
+# Documentation
+*.md
+!README.md
+
+# Git
+.git
+.gitignore
+
+# Scripts (not needed for runtime, only for data generation)
+scripts
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Testing
+coverage
+.nyc_output
+
+# Misc
+.DS_Store
+Thumbs.db
