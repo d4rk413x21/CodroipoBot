@@ -14,6 +14,7 @@
     "sync:all": "npm run scrape:services && npm run parse:scraped && npm run generate:kb",
     "sync:vapi": "tsx scripts/sync-vapi.ts",
     "setup:vapi-tools": "tsx scripts/setup-vapi-tools.ts",
+    "update:assistant": "tsx scripts/update-assistant-prompt.ts",
     "lint": "tsc --noEmit",
     "test": "echo \"No automated tests defined yet\" && exit 0"
   },

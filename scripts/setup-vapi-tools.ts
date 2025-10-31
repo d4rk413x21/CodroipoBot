@@ -18,18 +18,18 @@ async function setupGoogleCalendarTools() {
 
   try {
     // Tool 1: Check Availability
-    console.log('📅 Creazione tool "Check Availability"...');
+    console.log('Creazione tool "Check Availability"...');
     const checkAvailabilityTool = await vapi.tools.create({
       type: 'function',
       function: {
         name: 'checkAvailability',
-        description: 'Verifica la disponibilità di slot per appuntamenti nel calendario. Usa questo tool prima di creare un appuntamento.',
+        description: 'Verifica la disponibilità di slot per appuntamenti nel calendario. Usa questo tool prima di creare un appuntamento. La data corrente è {{"now" | date: "%Y-%m-%d", "Europe/Rome"}}. Usa questa data come riferimento per calcolare le date richieste dal cittadino.',
         parameters: {
           type: 'object',
           properties: {
             startTime: {
               type: 'string',
-              description: 'Data e ora di inizio del periodo da verificare (formato ISO 8601, es: 2025-11-01T09:00:00Z)',
+              description: 'Data e ora di inizio del periodo da verificare (formato ISO 8601, es: 2025-11-01T09:00:00+01:00). RICORDA: la data di oggi è {{"now" | date: "%Y-%m-%d", "Europe/Rome"}}. Calcola la data richiesta dal cittadino partendo da oggi.',
             },
             endTime: {
               type: 'string',
@@ -55,7 +55,7 @@ async function setupGoogleCalendarTools() {
       type: 'function',
       function: {
         name: 'createEvent',
-        description: 'Crea un nuovo appuntamento nel calendario. Usa questo tool dopo aver verificato la disponibilità e confermato con il cittadino.',
+        description: 'Crea un nuovo appuntamento nel calendario. Usa questo tool dopo aver verificato la disponibilità e confermato con il cittadino. La data corrente è {{"now" | date: "%Y-%m-%d %H:%M", "Europe/Rome"}}.',
         parameters: {
           type: 'object',
           properties: {
