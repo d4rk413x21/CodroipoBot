@@ -4,10 +4,10 @@
   "description": "Prototipo backend Fastify in TypeScript per assistente virtuale del Comune di Codroipo con integrazione Vapi e Google Calendar.",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch src/server.ts",
+    "dev": "tsx watch src/app.ts",
     "build": "tsc -p tsconfig.json",
     "vercel-build": "npm run build",
-    "start": "node dist/server.js",
+    "start": "node dist/app.js",
     "scrape:services": "tsx scripts/scrape-services.ts",
     "parse:scraped": "tsx scripts/parse-scraped-data.ts",
     "generate:kb": "tsx scripts/generate-knowledge-base.ts",
@@ -21,11 +21,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fastify/autoload": "^6.3.1",
     "@fastify/cors": "^11.1.0",
     "@vapi-ai/server-sdk": "^0.10.2",
     "cheerio": "^1.1.2",
     "dotenv": "^17.2.3",
     "fastify": "^5.6.1",
+    "fastify-plugin": "^5.1.0",
     "puppeteer": "^24.26.1",
     "zod": "^4.1.12"
   },

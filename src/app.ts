@@ -1,25 +1,39 @@
 import Fastify from 'fastify';
-import cors from '@fastify/cors';
-import { knowledgeBaseRoutes } from './routes/knowledgeBaseRoutes.js';
-import { servicesRoutes } from './routes/servicesRoutes.js';
-import { integrationsRoutes } from './routes/integrationsRoutes.js';
-import { vapiToolsRoutes } from './routes/vapiToolsRoutes.js';
+import autoload from '@fastify/autoload';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+import { env } from './config/env.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 export async function buildServer() {
   const app = Fastify({
     logger: true,
   });
 
-  await app.register(cors, {
-    origin: true,
+  // Load plugins
+  await app.register(autoload, {
+    dir: join(__dirname, 'plugins'),
   });
 
-  app.get('/health', async () => ({ status: 'ok' }));
-
-  await app.register(servicesRoutes, { prefix: '/api' });
-  await app.register(knowledgeBaseRoutes, { prefix: '/api' });
-  await app.register(integrationsRoutes, { prefix: '/api' });
-  await app.register(vapiToolsRoutes, { prefix: '/api' });
+  // Load routes with /api prefix
+  await app.register(autoload, {
+    dir: join(__dirname, 'routes'),
+    options: { prefix: '/api' },
+  });
 
   return app;
+}
+
+if (import.meta.url === `file://${process.argv[1]}`) {
+  const app = await buildServer();
+  
+  try {
+    await app.listen({ port: env.PORT, host: '0.0.0.0' });
+    app.log.info(`Server listening on port ${env.PORT} (${env.NODE_ENV})`);
+  } catch (err) {
+    app.log.error(err);
+    process.exit(1);
+  }
 }
