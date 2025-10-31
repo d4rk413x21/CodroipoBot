@@ -243,3 +243,5 @@ export const vapiToolsRoutes: FastifyPluginAsync = async (app) => {
     }
   });
 };
+
+export default vapiToolsRoutes;

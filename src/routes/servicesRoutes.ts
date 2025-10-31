@@ -46,3 +46,5 @@ export const servicesRoutes: FastifyPluginAsync = async (app) => {
     return { faqs: searchFaqs(query) };
   });
 };
+
+export default servicesRoutes;

@@ -10,6 +10,8 @@ export const integrationsRoutes: FastifyPluginAsync = async (app) => {
     }
 
     await syncKnowledgeBase();
-    return reply.code(202).send({ status: 'pending', message: 'Knowledge base in fase di sincronizzazione' });
+    return { message: 'Sincronizzazione avviata', success: true };
   });
 };
+
+export default integrationsRoutes;

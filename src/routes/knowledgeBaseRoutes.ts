@@ -46,3 +46,5 @@ export const knowledgeBaseRoutes: FastifyPluginAsync = async (app) => {
     return { answer };
   });
 };
+
+export default knowledgeBaseRoutes;
