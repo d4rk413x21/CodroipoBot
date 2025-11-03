@@ -1,6 +1,6 @@
 # 🏛️ Assistente Virtuale Comune di Codroipo
 
-> Backend TypeScript + Fastify per assistente vocale AI del Comune di Codroipo, integrato con [Vapi.ai](https://vapi.ai) per conversazioni vocali intelligenti.
+> Backend TypeScript + Fastify per assistente vocale AI del Comune di Codroipo, integrato con [Vapi.ai](https://vapi.ai).
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/d4rk413x21/CodroipoBot)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue.svg)](https://www.typescriptlang.org/)
@@ -13,7 +13,7 @@
 ### Prerequisiti
 
 - Node.js 20+
-- Account [Vapi.ai](https://vapi.ai) (free tier disponibile)
+- Account [Vapi.ai](https://vapi.ai)
 - (Opzionale) Account Vercel per deployment
 
 ### Installazione
