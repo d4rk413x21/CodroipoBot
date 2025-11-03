@@ -65,11 +65,11 @@ async function fetchService(service: ServiceTarget, page: Page) {
 
   // Estrai il testo dal contenuto principale
   const content = await page.evaluate(() => {
-    // Rimuovi elementi non desiderati
+    // Rimuovi elementi
     const elementsToRemove = document.querySelectorAll('script, style, noscript, svg, nav, header, footer, .cookie-bar, .breadcrumb');
     elementsToRemove.forEach(el => el.remove());
 
-    // Prova vari selettori per il contenuto
+    // Selettori per il contenuto
     const selectors = ['main', '[role="main"]', '#main', 'article', '.container'];
     
     for (const selector of selectors) {

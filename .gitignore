@@ -6,4 +6,5 @@ dist/
 .env
 logs/
 *.log
+scripts/update-assistant-prompts.ts
 .DS_Store

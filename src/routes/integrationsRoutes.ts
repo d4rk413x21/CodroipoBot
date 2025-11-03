@@ -5,7 +5,7 @@ export const integrationsRoutes: FastifyPluginAsync = async (app) => {
   app.post('/integrations/vapi/sync', async (request, reply) => {
     if (!isVapiConfigured()) {
       return reply.code(400).send({
-        message: 'Configurazione Vapi assente. Imposta VAPI_API_KEY e VAPI_ASSISTANT_ID.',
+        message: 'Configurazione Vapi assente. Imposta VAPI_API_KEY',
       });
     }
 

@@ -14,9 +14,7 @@
     "sync:all": "npm run scrape:services && npm run parse:scraped && npm run generate:kb",
     "sync:vapi": "tsx scripts/sync-vapi.ts",
     "setup:vapi-tools": "tsx scripts/setup-vapi-tools.ts",
-    "update:assistant": "tsx scripts/update-assistant-prompt.ts",
-    "lint": "tsc --noEmit",
-    "test": "echo \"No automated tests defined yet\" && exit 0"
+    "lint": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",
@@ -25,7 +23,6 @@
     "@fastify/autoload": "^6.3.1",
     "@fastify/cors": "^11.1.0",
     "@vapi-ai/server-sdk": "^0.10.2",
-    "cheerio": "^1.1.2",
     "dotenv": "^17.2.3",
     "fastify": "^5.6.1",
     "fastify-plugin": "^5.1.0",

@@ -8,7 +8,6 @@ const envSchema = z.object({
   PORT: z.coerce.number().min(0).max(65535).default(3333),
   SERVER_URL: z.string().url().optional(),
   VAPI_API_KEY: z.string().optional(),
-  VAPI_ASSISTANT_ID: z.string().optional(),
 });
 
 type Env = z.infer<typeof envSchema>;

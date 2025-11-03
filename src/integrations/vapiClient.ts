@@ -3,7 +3,7 @@ import { createReadStream } from 'fs';
 import { join } from 'path';
 import process from 'process';
 import { env } from '../config/env.js';
-import { KnowledgeBaseService } from '../services/knowledgeBaseService.js';
+import { listServices } from '../data/services.js';
 
 let client: VapiClient | undefined;
 
@@ -20,12 +20,11 @@ export function getVapiClient() {
 }
 
 export function isVapiConfigured() {
-  return Boolean(env.VAPI_API_KEY && env.VAPI_ASSISTANT_ID);
+  return Boolean(env.VAPI_API_KEY);
 }
 
 export function buildKnowledgeBasePayload() {
-  const knowledgeBaseService = new KnowledgeBaseService();
-  const services = knowledgeBaseService.listServices();
+  const services = listServices();
 
   return services.map((service) => ({
     serviceId: service.id,
@@ -47,7 +46,7 @@ export async function uploadKnowledgeBaseFile(): Promise<any> {
 
   const kbPath = join(process.cwd(), 'data', 'knowledge-base.json');
 
-  console.info('📤 Caricamento knowledge-base.json su Vapi...');
+  console.info('Caricamento knowledge-base.json su Vapi...');
   
   const uploadedFile = await vapi.files.create(createReadStream(kbPath) as any);
   
